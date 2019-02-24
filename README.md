@@ -9,7 +9,7 @@ Figure 2
 2. Run “figure2.py”. This will generate the figure and save it in the “Figure” folder. The folder will be created if it doesn’t exist.
 
 Figure 3
-1. Run “gen_spikes_figure3.py”. This will generate spikes for a model with random graphs with weights following sine waves with different amplitude and frequency. The trajectory is repeated 200 times, to create 200 epochs of data. The spike array obtained is save in a pickle file called “spikes_fig3” in the “Data” folder.
+1. Run “gen_spikes_figure3.py”. This will generate spikes for a model with random graphs with weights following sine waves with different frequency. The trajectory is repeated 200 times, to create 200 epochs of data. The spike array obtained is save in a pickle file called “spikes_fig3” in the “Data” folder.
 2. Run “figure3_data_fit.py”. This fits the Multi-Graph State-Space Ising Model to the data previously generated with number of graphs given by the variable “D_fit”. A data file containing the fitted weights at the last epoch of the data and the fitted J is saved in a pickle file called “Data_fig3_D_fit=X”, where “X” is the value of the variable “D_fit”. The file is saved in the “Data” folder. To replicate the figure, “figure3_data_fit.py” should be ran 4 times, with the value of “D_fit” manually set to 1, 2, 3 and 4.
 3. Run “figure3.py”. This will generate the figure and save it in the “Figure” folder. The folder will be created if it doesn’t exist.
 
