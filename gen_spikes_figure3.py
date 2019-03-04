@@ -1,3 +1,46 @@
+"""
+Generates the spike array necessary to fit the data that is shown on figure 3.
+
+---
+This code fits a State-space Model of Time-varying multi-graph Ising model. It
+is based on previous work on State-space Model of Time-varying Neural 
+Interactions previously developed (Shimazaki et al. PLoS Comp Biol 2012; 
+Donner et al. PLoS Comp Biol 2017). We acknowledge Thomas Sharp and Christian 
+Donner respectively for providing codes for the inference method (from 
+repository <https://github.com/tomxsharp/ssll> or 
+<http://github.com/shimazaki/dynamic_corr> for Matlab), and its approximation
+methods (from repository <https://github.com/christiando/ssll_lib>).
+
+In this library, we modify the existing codes to extract the dominant 
+correlation structures and their contribution to generating binary data in a
+time-dependant manner. The dynamics of binary patterns are modeled with a
+state-space model of an Ising type network composed of multiple undirected
+graphs. For details see:
+    
+Jimmy Gaudreault, Arunabh Saxena and Hideaki Shimazaki. (2019). Online
+Estimation of Multiple Dynamic Graphs in Pattern Sequences.  
+arXiv:1901.07298. 
+<https://arxiv.org/abs/1901.07298>
+
+Copyright (C) 2019
+
+Authors of the analysis methods: Jimmy Gaudreault (jimmy.gaudreault@polymtl.ca)
+                                 Arunabh Saxena (arunabh96@gmail.com)
+                                 Hideaki Shimazaki (h.shimazaki@kyoto-u.ac.jp)
+                                 
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"""
+
 import numpy
 import os
 import pickle
