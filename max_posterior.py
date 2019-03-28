@@ -19,8 +19,8 @@ state-space model of an Ising type network composed of multiple undirected
 graphs. For details see:
     
 Jimmy Gaudreault, Arunabh Saxena and Hideaki Shimazaki. (2019). Online
-Estimation of Multiple Dynamic Graphs in Pattern Sequences.  
-arXiv:1901.07298. 
+Estimation of Multiple Dynamic Graphs in Pattern Sequences.
+Presented at IJCNN 2019. arXiv:1901.07298. 
 <https://arxiv.org/abs/1901.07298>
 
 Copyright (C) 2019
