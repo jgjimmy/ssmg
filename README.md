@@ -2,7 +2,7 @@
 State-Space Ising Model code
 
 This code uses the Multi-Graph State-Space Ising Model to create the figures shown in:
-Gaudreault, J., Shimazaki, H. and Saxena, A. (2019). Online Estimation of Multiple Dynamic Graphs in Pattern Sequences. Available at: https://arxiv.org/abs/1901.07298
+Gaudreault, J., Shimazaki, H. and Saxena, A. (2019). Online Estimation of Multiple Dynamic Graphs in Pattern Sequences. Presented at IJCNN 2019. Available at: https://arxiv.org/abs/1901.07298
 To generate the figures in that paper, please follow the following steps:
 Figure 2 
 1. Run “figure2_data_fit.py”. This generates data from a generative J matrix with 2 graphs and fits a model online. The first graph is likely to generate the image of a cross, while the second one is likely to generate images of a “T”. The weights follow sine waves. This will save the fitted J and weights at every time step in a pickle file “Data_fig2” in the “Data” folder. The folder will be created if it doesn’t exist.
